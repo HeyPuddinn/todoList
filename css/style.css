@@ -137,6 +137,7 @@ body {
 	content: '❯';
 	font-size: 22px;
 	color: #e6e6e6;
+	cursor: pointer;
 	padding: 10px 27px 10px 27px;
 }
 
@@ -246,6 +247,7 @@ body {
 
 .todo-list li:hover .destroy {
 	display: block;
+	cursor:pointer;
 }
 
 .todo-list li .edit {
@@ -316,6 +318,7 @@ body {
 
 .filters li a.selected {
 	border-color: rgba(175, 47, 47, 0.2);
+	background-color:rgba(0, 0, 0, 0.3)
 }
 
 .clear-completed,
@@ -365,6 +368,7 @@ html .clear-completed:active {
 
 	.todo-list li .toggle {
 		height: 40px;
+		cursor:pointer
 	}
 }
 
