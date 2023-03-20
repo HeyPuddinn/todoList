@@ -12,7 +12,7 @@ const init = {
 }
 
 const actions = {
-  add({todos}, title){
+  add({todos}, title, tag){
     if(title){
       todos.push({title, completed: false});
       storage.set(todos)
